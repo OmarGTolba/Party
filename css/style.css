@@ -1,0 +1,155 @@
+/* .................START SIDEBAR................. */
+.sidebarInner i:hover{
+    color: rgba(214, 46, 51, 0.6) !important;
+    cursor: pointer;
+}
+.sidebarInner a:hover{
+color: rgba(214, 46, 51, 0.6);
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin: 1rem;
+
+    font-size: 2.5rem;
+}
+.sidebar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -250px;
+    width: 250px;
+}
+.navBtn{
+    cursor: pointer;
+    left: 0 !important; 
+display: flex;
+justify-self: start !important;
+}
+.sidebarInner{
+    width: 100%;
+    background-color: #414658;   
+}
+/* .................END SIDEBAR................. */
+
+
+
+
+
+/* .................START HOME................. */
+.home i{
+    cursor: pointer;
+    font-size: 28px;
+    color:#fff !important ;
+justify-self: flex-start !important;
+ 
+}
+.home h2{
+    padding-top: 200px;
+    font-size: 60px;
+ color: #fff;
+    text-align: center !important;
+}
+.header{
+    width: 100%;
+    height: 660px;
+    background-image: url(images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6)
+}
+/* .................END HOME................. */
+
+
+
+
+
+
+
+/* .................START DETAILS................. */
+.slider h3{
+ cursor: pointer;
+    background-color: rgba(214, 46, 51, 0.6);
+    margin-bottom: 0;
+}
+.details{
+background-color: #ccc;
+    display: none;
+}
+.slider h3{
+    color: #fff;
+    padding: 10px;
+}
+/* .................END DETAILS................. */
+
+
+
+
+
+
+/* .................START COUNTDOWN................. */
+#countdown{
+    background-image: url(images/invitation-2508607__340.jpg);
+    height: 330px;
+    background-position: center;
+    background-size: 100% 100%;    
+}
+.child{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6)   
+}
+#countdown .col-md-3 div{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: 1px solid #fff;
+}
+/* .................END COUNTDOWN................. */
+
+
+
+
+
+/* .................START CONTACT................. */
+#contactSocial i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    flex-direction: row !important;
+    width: 40px;
+    height: 40px;
+    color: #999;
+    border: 1px solid #999;
+}
+#contactSocial i:hover{
+    background-color:#D62E33 ;
+    color: #fff;
+    border: none;
+}
+textarea{
+    height: 200px !important;
+}
+#ContactBtn{
+    background-color:#D62E33;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+}
+input{
+    width: 100% !important;
+    margin-bottom: 15px !important;
+       height: 46px !important;
+   }  
+/* .................END CONTACT................. */
+
+
